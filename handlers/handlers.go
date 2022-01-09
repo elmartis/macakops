@@ -1,11 +1,11 @@
 package handlers
 
 import (
+	"log"
+	"os"
+
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
-	"log"
-	"net"
-	"os"
 )
 
 /*manejadores de seteo mi puerto el handlers y pongo a escuchar al server*/

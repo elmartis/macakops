@@ -1,6 +1,6 @@
 module github.com/elmartis/macakops
 
-go 1.23/
+go 1.23
 
 require (
 	github.com/go-stack/stack v1.8.0 // indirect
