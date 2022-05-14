@@ -10,7 +10,7 @@ import (
 
 /*mongocn opjeto de conexion a la base de datos*/
 var MongoCN = ConectarBD()
-var clientOptions = options.Client().ApplyURI("mongodb+srv://macakops:<Escaner54321>@macakops.2muui.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+var clientOptions = options.Client().ApplyURI("mongodb+srv://macakops:<passsword>@macakops.2muui.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 /*Conectar db es la funcion para la conecxion ala db*/
 func ConectarBD() *mongo.Client {
